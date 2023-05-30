@@ -1,3 +1,4 @@
+//TC: O(N^2)
 var insertionSort = function(arr) {
     for(let i = 1; i < arr.length; i++) {
         let key = arr[i];
