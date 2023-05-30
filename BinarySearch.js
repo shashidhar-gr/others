@@ -20,10 +20,9 @@ var search = function(arr, element, left, right) {
     else {
         return search(arr, element, mid+1, arr.length-1);
     }
-    return -1;
 };
 
 let arr = [1, 2, 4, 5, 6, 10, 12, 50];
-element = 51;
+element = 50;
 
 console.log(binarySearch(arr, element));
