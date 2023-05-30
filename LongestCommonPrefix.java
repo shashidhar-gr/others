@@ -1,3 +1,7 @@
+/**
+ * https://leetcode.com/problems/longest-common-prefix/
+ */
+
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] arr = {"abcd", "abcd", "abcd"};
